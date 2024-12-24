@@ -119,7 +119,7 @@ var qefcqefc = "qfcqrfc"
                     }
                     .frame(width: 100, height: 40)
                     .overlay {
-                        Text("993/1000")
+                        Text("976/1000")
                             .withFont(size: 19.34, weight: .regular)
                     }
             }
@@ -195,7 +195,7 @@ class TrainViewModel: ObservableObject {
     let rate: Int
     let sportType: SportTypes
     
-    @Published var status: ViewTypes = .finish
+    @Published var status: ViewTypes = .start
     @Published var seconds = 0
     @Published var selectedExs = 1
     

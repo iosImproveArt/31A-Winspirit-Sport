@@ -148,7 +148,7 @@ struct HomeViewNiagaraSport: View {
                     Image("rating.label")
                     Image("homefield.label")
                         .overlay {
-                            Text(wasTrained ? "993/1000": "-/1000")
+                            Text(wasTrained ? "976/1000": "-/1000")
                                 .withFont(size: 22.66, weight: .regular)
                         }
                 }
