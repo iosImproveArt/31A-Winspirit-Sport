@@ -2,19 +2,19 @@
 
 import SwiftUI
 
-struct OnboardingViewNiagaraSport: View {
+struct OnboardingViewWinerSport: View {
     @AppStorage("showOnboarding") var showOnboarding = true
     @State private var selected = 1
     
-var qefcqefc = "qfcqrfc"
-    var cwrfcwrf = 52525
-    func wrfcwrfc() -> Double {
-        return 13413.0134
+var qefvqefv = "eqfvfv"
+    var aefvqrfv = 245245
+    func qrfvwrqfv() -> CGFloat {
+        return 25245.135135
     }
-    func qecfqefce() {
-        print("qefcqef")
-        print("qefcqef")
-        print("qefcqef")
+    func ebg5b5be5bv5() {
+        print("wrgverw")
+        print("ewvtgve")
+        print("etgvbetg4g5g3evgt")
     }
         
     var body: some View {
@@ -51,5 +51,5 @@ var qefcqefc = "qfcqrfc"
 }
 
 #Preview {
-    OnboardingViewNiagaraSport()
+    OnboardingViewWinerSport()
 }

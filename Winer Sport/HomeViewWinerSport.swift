@@ -3,7 +3,7 @@
 
 import SwiftUI
 
-struct HomeViewNiagaraSport: View {
+struct HomeViewWinerSport: View {
     @AppStorage("secondsWaste") var secondsWaste = 0
     @AppStorage("wasTrained") var wasTrained = false
     
@@ -24,7 +24,7 @@ struct HomeViewNiagaraSport: View {
             ScrollView {
                 VStack {
                     NavigationLink {
-                        TrainingViewNiagaraSport(sportType: .tennis)
+                        TrainingViewWinerSport(sportType: .tennis)
                     } label: {
                         Image("tennis.label")
                             .overlay {
@@ -36,7 +36,7 @@ struct HomeViewNiagaraSport: View {
                     }.disabled(wasTrained)
                     
                     NavigationLink {
-                        TrainingViewNiagaraSport(sportType: .football)
+                        TrainingViewWinerSport(sportType: .football)
                     } label: {
                         Image("football.label")
                             .overlay {
@@ -48,7 +48,7 @@ struct HomeViewNiagaraSport: View {
                     }.disabled(wasTrained)
                     
                     NavigationLink {
-                        TrainingViewNiagaraSport(sportType: .basketball)
+                        TrainingViewWinerSport(sportType: .basketball)
                     } label: {
                         Image("basketball.label")
                             .overlay {
@@ -60,7 +60,7 @@ struct HomeViewNiagaraSport: View {
                     }.disabled(wasTrained)
                     
                     NavigationLink {
-                        TrainingViewNiagaraSport(sportType: .volleyball)
+                        TrainingViewWinerSport(sportType: .volleyball)
                     } label: {
                         Image("volleyball.label")
                             .overlay {
@@ -72,7 +72,7 @@ struct HomeViewNiagaraSport: View {
                     }.disabled(wasTrained)
                     
                     NavigationLink {
-                        TrainingViewNiagaraSport(sportType: .golf)
+                        TrainingViewWinerSport(sportType: .golf)
                     } label: {
                         Image("golf.label")
                             .overlay {
@@ -88,7 +88,7 @@ struct HomeViewNiagaraSport: View {
                     .scrollIndicators(.hidden)
                 
                 NavigationLink {
-                    TrainingViewNiagaraSport(sportType: SportTypes(rawValue: favourite) ?? .basketball )
+                    TrainingViewWinerSport(sportType: SportTypes(rawValue: favourite) ?? .basketball )
                 } label: {
                     Image("favourite.workout")
                 }.padding(.vertical)
@@ -160,7 +160,7 @@ struct HomeViewNiagaraSport: View {
 }
 
 #Preview {
-    ContentViewNiagaraSport(showLoading: false, selectedTab: .home)
+    ContentViewWinerSport(showLoading: false, selectedTab: .home)
 }
 
 
@@ -170,7 +170,7 @@ enum Sports: String {
     case volleyball = "Volleyball"
     case basketball = "Basketball"
     case golf = "golf"
-    case fitneNiagaraSport = "FitneNiagaraSport"
+    case fitneWinerSport = "FitneWinerSport"
     case yoga = "Yoga"
     case pilates = "Pilates"
     case stretch = "Stretch"

@@ -7,20 +7,20 @@
 
 import SwiftUI
 
-struct ContentViewNiagaraSport: View {
+struct ContentViewWinerSport: View {
     @AppStorage("wasTrained") var wasTrained = false
     @State var showLoading = true
     @State var selectedTab: Tabs = .home
     
-var qefcqefc = "qfcqrfc"
-    var cwrfcwrf = 52525
-    func wrfcwrfc() -> Double {
-        return 13413.0134
+var qefvqefv = "eqfvfv"
+    var aefvqrfv = 245245
+    func qrfvwrqfv() -> CGFloat {
+        return 25245.135135
     }
-    func qecfqefce() {
-        print("qefcqef")
-        print("qefcqef")
-        print("qefcqef")
+    func ebg5b5be5bv5() {
+        print("wrgverw")
+        print("ewvtgve")
+        print("etgvbetg4g5g3evgt")
     }
         
     var body: some View {
@@ -34,11 +34,11 @@ var qefcqefc = "qfcqrfc"
                         Group {
                             switch selectedTab {
                             case .home:
-                                HomeViewNiagaraSport()
+                                HomeViewWinerSport()
                             case .profile:
                                 KcalView()
                             case .quotes:
-                                QuotesViewNiagaraSport()
+                                QuotesViewWinerSport()
                             case .stretch:
                                 DayliStrerchView()
                             }
@@ -52,9 +52,9 @@ var qefcqefc = "qfcqrfc"
                 }
             }
             
-            OnboardingViewNiagaraSport()
+            OnboardingViewWinerSport()
             
-            LoadingViewNiagaraSport(showView: $showLoading)
+            LoadingViewWinerSport(showView: $showLoading)
                 .opacity(showLoading ? 1: 0)
                 .onChange(of: showLoading) { newValue in
                     AppDelegate.orientationLock = .portrait
@@ -193,7 +193,7 @@ var qefcqefc = "qfcqrfc"
 }
 
 #Preview {
-    ContentViewNiagaraSport(showLoading: false)
+    ContentViewWinerSport(showLoading: false)
 }
 
 

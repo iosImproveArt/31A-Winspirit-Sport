@@ -2,7 +2,7 @@
 
 import SwiftUI
 
-struct QuotesViewNiagaraSport: View {
+struct QuotesViewWinerSport: View {
     let quotes: [String: String] = [
         "Success is not the key to happiness. Happiness is the key to success." : "Albert Schweitzer",
         "You are never too old to set another goal or to dream a new dream." : "C.S. Lewis",
@@ -51,15 +51,15 @@ struct QuotesViewNiagaraSport: View {
     @State var timer: Timer?
     @State var selectedQuote: Dictionary<String, String>.Element? = ("", "")
     
-    var qefcqefc = "qfcqrfc"
-    var cwrfcwrf = 52525
-    func wrfcwrfc() -> Double {
-        return 13413.0134
+    var qefvqefv = "eqfvfv"
+    var aefvqrfv = 245245
+    func qrfvwrqfv() -> CGFloat {
+        return 25245.135135
     }
-    func qecfqefce() {
-        print("qefcqef")
-        print("qefcqef")
-        print("qefcqef")
+    func ebg5b5be5bv5() {
+        print("wrgverw")
+        print("ewvtgve")
+        print("etgvbetg4g5g3evgt")
     }
     
     var body: some View {
@@ -82,7 +82,7 @@ struct QuotesViewNiagaraSport: View {
             Spacer()
             
             NavigationLink {
-                PrivacyViewNiagaraSport(showLoading: .constant(true), fromMainView: true)
+                PrivacyViewWinerSport(showLoading: .constant(true), fromMainView: true)
             } label: {
                 Text("Privacy Policy")
                     .withFont(size: 18, weight: .light, color: .white)
@@ -110,6 +110,6 @@ struct QuotesViewNiagaraSport: View {
 }
 
 #Preview {
-    ContentViewNiagaraSport(showLoading: false, selectedTab: .quotes)
+    ContentViewWinerSport(showLoading: false, selectedTab: .quotes)
 }
 

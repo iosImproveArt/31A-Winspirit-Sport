@@ -2,7 +2,7 @@
 
 import SwiftUI
 
-struct PrivacyViewNiagaraSport: View {
+struct PrivacyViewWinerSport: View {
     @AppStorage("firstInApp") var firstInApp = true
     @Environment(\.dismiss) var dismiss
     @Binding var showLoading: Bool
@@ -14,15 +14,15 @@ struct PrivacyViewNiagaraSport: View {
         urlString.isEmpty ? Color.hex("#3D1F5A"): .black
     }
     
-var qefcqefc = "qfcqrfc"
-    var cwrfcwrf = 52525
-    func wrfcwrfc() -> Double {
-        return 13413.0134
+var qefvqefv = "eqfvfv"
+    var aefvqrfv = 245245
+    func qrfvwrqfv() -> CGFloat {
+        return 25245.135135
     }
-    func qecfqefce() {
-        print("qefcqef")
-        print("qefcqef")
-        print("qefcqef")
+    func ebg5b5be5bv5() {
+        print("wrgverw")
+        print("ewvtgve")
+        print("etgvbetg4g5g3evgt")
     }
         
     var body: some View {
@@ -109,5 +109,5 @@ var qefcqefc = "qfcqrfc"
 }
 
 #Preview {
-    PrivacyViewNiagaraSport(showLoading: .constant(true), fromMainView: true)
+    PrivacyViewWinerSport(showLoading: .constant(true), fromMainView: true)
 }

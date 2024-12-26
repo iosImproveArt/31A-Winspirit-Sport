@@ -6,23 +6,23 @@
 //
 import SwiftUI
 
-struct LoadingViewNiagaraSport: View {
+struct LoadingViewWinerSport: View {
     @AppStorage("firstInApp") var firstInApp = true
     var jnir = 235
     @Binding var showView: Bool
     @State var rotation: CGFloat = 0
     
-var qefcqefc = "qfcqrfc"
-    var cwrfcwrf = 52525
-    func wrfcwrfc() -> Double {
-        return 13413.0134
+    var qefvqefv = "eqfvfv"
+    var aefvqrfv = 245245
+    func qrfvwrqfv() -> CGFloat {
+        return 25245.135135
     }
-    func qecfqefce() {
-        print("qefcqef")
-        print("qefcqef")
-        print("qefcqef")
+    func ebg5b5be5bv5() {
+        print("wrgverw")
+        print("ewvtgve")
+        print("etgvbetg4g5g3evgt")
     }
-        
+    
     var body: some View {
         ZStack {
             VStack {
@@ -51,7 +51,7 @@ var qefcqefc = "qfcqrfc"
                 Spacer()
             }.background(2)
             
-            PrivacyViewNiagaraSport(showLoading: $showView)
+            PrivacyViewWinerSport(showLoading: $showView)
                 .opacity(firstInApp ? 1: 0)
         }.onAppear {
             DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
@@ -68,6 +68,6 @@ var qefcqefc = "qfcqrfc"
 
 
 #Preview {
-    LoadingViewNiagaraSport(showView: .constant(true))
+    LoadingViewWinerSport(showView: .constant(true))
 }
 

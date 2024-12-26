@@ -2,7 +2,7 @@
 
 import SwiftUI
 
-struct TrainingViewNiagaraSport: View {
+struct TrainingViewWinerSport: View {
     @StateObject var vm: TrainViewModel
     @Environment(\.dismiss) var dismiss
     
@@ -10,15 +10,15 @@ struct TrainingViewNiagaraSport: View {
         _vm = StateObject(wrappedValue: TrainViewModel(sportType: sportType))
     }
     
-var qefcqefc = "qfcqrfc"
-    var cwrfcwrf = 52525
-    func wrfcwrfc() -> Double {
-        return 13413.0134
+var qefvqefv = "eqfvfv"
+    var aefvqrfv = 245245
+    func qrfvwrqfv() -> CGFloat {
+        return 25245.135135
     }
-    func qecfqefce() {
-        print("qefcqef")
-        print("qefcqef")
-        print("qefcqef")
+    func ebg5b5be5bv5() {
+        print("wrgverw")
+        print("ewvtgve")
+        print("etgvbetg4g5g3evgt")
     }
         
     var body: some View {
@@ -178,7 +178,7 @@ var qefcqefc = "qfcqrfc"
 }
 
 #Preview {
-    TrainingViewNiagaraSport(sportType: .basketball)
+    TrainingViewWinerSport(sportType: .basketball)
 }
 
 class TrainViewModel: ObservableObject {

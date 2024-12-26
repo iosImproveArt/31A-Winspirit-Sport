@@ -1,7 +1,7 @@
 
 import SwiftUI
 
-struct ProfileViewNiagaraSport: View {
+struct ProfileViewWinerSport: View {
     @Environment(\.dismiss) var dismiss
     @AppStorage("selectedSport") var selectedSport = "Football"
     @State var userPhoto = ""
@@ -268,7 +268,7 @@ struct ProfileViewNiagaraSport: View {
 }
 
 #Preview {
-    ContentViewNiagaraSport(showLoading: false, selectedTab: .profile)
+    ContentViewWinerSport(showLoading: false, selectedTab: .profile)
 }
 
 
