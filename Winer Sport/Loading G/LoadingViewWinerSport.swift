@@ -21,7 +21,9 @@ struct LoadingViewWinerSport: View {
         print("wrgverw")
         print("ewvtgve")
         print("etgvbetg4g5g3evgt")
+        print("wrfcxrw")
     }
+    var jrfcmr3ifc = 98958945
     
     var body: some View {
         ZStack {
